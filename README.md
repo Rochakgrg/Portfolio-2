@@ -15,6 +15,17 @@ You can select a prebuilt server from Bitnami if you prefer.
 2. Ubuntu Server as Gateway Router: https://moodle.roehampton.ac.uk/pluginfile.php/4873277/mod_resource/content/4/Setting%20Up%20a%20Ubuntu%20Gateway%20Router_v02.pdf
 3. Bitnami Wordpress: https://bitnami.com/stacks/virtual-machine
 # method: 
+
+Router: Ubuntu Server
+
+Network Configuration:
+
+On the router VM (Ubuntu Server), the primary network configuration file is /etc/netplan/50-cloud-init.yaml. This file contains the network settings for all adapters.
+
+Command: sudo nano /etc/netplan/50-cloud-init.yaml
+
+![05A1AA4F-9BCA-480C-9379-4B4C7E3231EA](https://github.com/user-attachments/assets/3c709e1f-42ea-4644-a495-f7452cad3290)
+
 # Setting ip address in Ubuntu 24 Desktop:
 1. Open Network settings and select IPV4 tab and input the ip address provided:
 

@@ -43,7 +43,8 @@ You can select a prebuilt server from Bitnami if you prefer.
 
 2. After editing and saving the file, try to ping Ubuntu24 desktop, and Gateway Router:
 
-<img width="600" alt="bitnami_ping" src="https://github.com/user-attachments/assets/22ee2290-9f22-491c-80df-8613095c6a59">
+![2](https://github.com/user-attachments/assets/ec7fcc00-d713-498f-8bfa-ab1e14070f5a)
+
 
 # Setting ip address in Gateway Router: 
 1. Edit the network interfaces file with the command "sudo nano /etc/netplan/50-cloud-init.yaml", and this file looks like the image below:

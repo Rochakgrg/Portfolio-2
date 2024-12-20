@@ -17,13 +17,12 @@ You can select a prebuilt server from Bitnami if you prefer.
 # method: 
 # Setting ip address in Ubuntu 24 Desktop:
 1. Open Network settings and select IPV4 tab and input the ip address provided:
-
-   <img width="600" alt="Ubuntu24_desktop" src="https://github.com/user-attachments/assets/c3ff4d26-7ce6-49f2-bf37-b5ed2ebe9c1e">
-
+<img width="639" alt="Screenshot 2024-12-20 115113" src="https://github.com/user-attachments/assets/bad43769-b737-4d7e-953e-c2ac93b8573d" />
 
 
 
-   <img width="600" alt="Ubuntu24_desktop_network_setting" src="https://github.com/user-attachments/assets/a44f70a3-04f8-40df-b51a-91f7d9e588b9">
+  <img width="639" alt="Screenshot 2024-12-20 115222" src="https://github.com/user-attachments/assets/c539fac6-0909-4106-ac9c-32b0b8896c3c" />
+
 
 2. Then try pinging the Bitnami and Gateway Router see if its reachable:
    

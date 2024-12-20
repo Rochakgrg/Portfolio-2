@@ -7,6 +7,7 @@ This project requires setting up a network with three interconnected virtual mac
 Desktop VM: This VM will be used to manage and configure the other VMs and will reside on the first subnet.
 
 Gateway VM: This VM will function as the network's gateway, equipped with three network interface cards (NICs). One NIC will provide internet access, while the other two will connect to two distinct subnets.
+
 Application Server VM: Can be any server of choice (e.g., web server, database server), on subnet two.
 You can select a prebuilt server from Bitnami if you prefer.
 # Devices Used:

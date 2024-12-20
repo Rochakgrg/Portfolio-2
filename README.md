@@ -18,7 +18,8 @@ You can select a prebuilt server from Bitnami if you prefer.
 # Setting ip address in Ubuntu 24 Desktop:
 1. Open Network settings and select IPV4 tab and input the ip address provided:
 
-![4](https://github.com/user-attachments/assets/641d4daf-43f9-48c0-9312-d3e41cc68ec3)
+<img width="639" alt="Screenshot 2024-12-20 115113" src="https://github.com/user-attachments/assets/08799fda-edc2-4579-b641-d90053b4a51f" />
+
 
 
 
@@ -37,7 +38,8 @@ You can select a prebuilt server from Bitnami if you prefer.
 1. Edit the network interfaces file with the command "sudo nano /etc/network/interfaces", and this file looks like the image below:
 
    
-<img width="650" alt="bitnami_ip_address_setting" src="https://github.com/user-attachments/assets/b81bef2f-748f-4b00-9e39-13e6247fce72">
+![4](https://github.com/user-attachments/assets/1b786c0d-0db1-4025-9666-ded5ede561bf)
+
 
 2. After editing and saving the file, try to ping Ubuntu24 desktop, and Gateway Router:
 

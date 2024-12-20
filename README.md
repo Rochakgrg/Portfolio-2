@@ -43,7 +43,7 @@ You can select a prebuilt server from Bitnami if you prefer.
 
 2. After editing and saving the file, try to ping Ubuntu24 desktop, and Gateway Router:
 
-![2](https://github.com/user-attachments/assets/ec7fcc00-d713-498f-8bfa-ab1e14070f5a)
+![5](https://github.com/user-attachments/assets/8f55e9db-6222-436f-9e06-3d3de81d2a6c)
 
 
 # Setting ip address in Gateway Router: 
@@ -54,7 +54,8 @@ You can select a prebuilt server from Bitnami if you prefer.
 
 2. After editing and saving the file, try to ping Ubuntu24 desktop, and Bitnami:
 
-<img width="600" alt="ubuntu_server_router_ping" src="https://github.com/user-attachments/assets/31bc7b1d-d72a-4112-96cd-30087e09b2fc">
+![2](https://github.com/user-attachments/assets/66a2367f-3830-47ab-b5e3-736bd32c1129)
+
 
 # Conclusion:
 

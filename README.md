@@ -75,11 +75,12 @@ Command: ping 10.0.2.15
 # Setting ip address in Bitnami Wordpress: 
 1. Edit the network interfaces file with the command "sudo nano /etc/network/interfaces", and this file looks like the image below:
 
+   Command: sudo nano /etc/network/interfaces
    
 ![4](https://github.com/user-attachments/assets/1b786c0d-0db1-4025-9666-ded5ede561bf)
 
 
-2. After editing and saving the file, try to ping Ubuntu24 desktop, and Gateway Router:
+3. After editing and saving the file, try to ping Ubuntu24 desktop, and Gateway Router:
 
 <img width="1372" alt="Screenshot 2024-12-20 at 12 54 15 PM" src="https://github.com/user-attachments/assets/e9c7a063-70da-4769-ba2d-c825c5953b3d" />
 

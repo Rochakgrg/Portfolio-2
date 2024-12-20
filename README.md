@@ -26,7 +26,9 @@ You can select a prebuilt server from Bitnami if you prefer.
 
 2. Then try pinging the Bitnami and Gateway Router see if its reachable:
    
-   <img width="600" alt="Ubuntu24_ping" src="https://github.com/user-attachments/assets/d36af873-e67d-44de-8447-c7593a4312dc">
+
+![3](https://github.com/user-attachments/assets/045f1371-047f-4543-9c1c-1b13cd8b14f3)
+
 
 
 # Setting ip address in Bitnami Wordpress: 

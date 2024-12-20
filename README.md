@@ -17,7 +17,8 @@ You can select a prebuilt server from Bitnami if you prefer.
 # method: 
 # Setting ip address in Ubuntu 24 Desktop:
 1. Open Network settings and select IPV4 tab and input the ip address provided:
-![4](https://github.com/user-attachments/assets/14988e1e-96b3-47f2-9912-58832c01406d)
+
+![4](https://github.com/user-attachments/assets/641d4daf-43f9-48c0-9312-d3e41cc68ec3)
 
 
 

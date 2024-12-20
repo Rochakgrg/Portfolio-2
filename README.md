@@ -16,7 +16,7 @@ You can select a prebuilt server from Bitnami if you prefer.
 3. Bitnami Wordpress: https://bitnami.com/stacks/virtual-machine
 # method: 
 
-Router: Ubuntu Server
+ # Router: Ubuntu Server
 
 Network Configuration:
 
@@ -26,6 +26,26 @@ Command: sudo nano /etc/netplan/50-cloud-init.yaml
 
 ![05A1AA4F-9BCA-480C-9379-4B4C7E3231EA](https://github.com/user-attachments/assets/3c709e1f-42ea-4644-a495-f7452cad3290)
 
+IP address of all adapters:
+You may use the following command to confirm the IP addresses given to each network interface on the router after establishing the network settings:
+
+Command: ip a
+
+This command displays all ip address associated with the routers network interface
+
+<img width="1372" alt="Screenshot 2024-12-20 at 12 54 09 PM" src="https://github.com/user-attachments/assets/f7f191b7-811d-4e6a-bf33-b0824af6855a" />
+
+Pinging Desktop VM and Application VM:
+
+Command to ping Desktop VM: ping 192.168.114.1
+
+![0C7A34DE-C3ED-4AC2-9670-D7C13E3B0501_4_5005_c](https://github.com/user-attachments/assets/1dd204ae-f171-48b9-a921-df611b95e7e5)
+
+
+Command to ping Application Server: ping 192.168.14.1
+
+<img width="509" alt="Screenshot 2024-12-20 at 1 08 25 PM" src="https://github.com/user-attachments/assets/d5e483bd-711a-47ea-86cb-3a55e7c3b9fc" />
+
 # Setting ip address in Ubuntu 24 Desktop:
 1. Open Network settings and select IPV4 tab and input the ip address provided:
 
@@ -33,9 +53,16 @@ Command: sudo nano /etc/netplan/50-cloud-init.yaml
 
 
 
-
-
   <img width="639" alt="Screenshot 2024-12-20 115222" src="https://github.com/user-attachments/assets/c539fac6-0909-4106-ac9c-32b0b8896c3c" />
+
+  Pinging to router:
+
+To check if the Desktop VM can communicate with the router, ping the router's IP address (e.g., 10.0.2.15).
+
+Command: ping 10.0.2.15
+
+![71EE607D-AF05-40CE-A353-D1EF76B70591_4_5005_c](https://github.com/user-attachments/assets/404e5c26-01b0-4d98-936e-66a869d1dd0d)
+
 
 
 2. Then try pinging the Bitnami and Gateway Router see if its reachable:
@@ -54,7 +81,7 @@ Command: sudo nano /etc/netplan/50-cloud-init.yaml
 
 2. After editing and saving the file, try to ping Ubuntu24 desktop, and Gateway Router:
 
-![5](https://github.com/user-attachments/assets/8f55e9db-6222-436f-9e06-3d3de81d2a6c)
+<img width="1372" alt="Screenshot 2024-12-20 at 12 54 15 PM" src="https://github.com/user-attachments/assets/e9c7a063-70da-4769-ba2d-c825c5953b3d" />
 
 
 # Setting ip address in Gateway Router: 
@@ -70,4 +97,7 @@ Command: sudo nano /etc/netplan/50-cloud-init.yaml
 
 # Conclusion:
 
-After setting all 3 network devices, all three devices are pinging each other ip addresses successfully.
+After setting all 3 network devices, all three devices are pinging each other ip addresses successfully.Success in the making of a functional, isolated virtual network through virtual box, which includes a Desktop VM to manage, a Gateway VM acting as router and with three network interfaces and an Application Server VM running Bitnami WordPress. The main focus was to provide hands-on experience with basic networking concepts like IP subnetting, configuring network interfaces, and setting up a simple server. networking principles.A functional Network Infrastructure was achieved by assigning Private IP addresses from different subnets and altering the network configuration files in each VM. Using the ping test between the VMs, I tested for network connectivity, which showed that network communication between the VMs was successful.
+
+The project successfully showcased my skill to plan, design, and implement a basic network topology while gaining valuable hands-on experience with fundamental networking principles.Gateway VM is configured successfully as a router connecting two subnets and the internet, indicating a good knowledge of routing. Deploying Bitnami WordPress server further made these concepts practical. Once this is working the project provides a good basis to explore other networking concepts like firewalls and routing protocols or adding more services and VMS.
+

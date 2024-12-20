@@ -1,13 +1,12 @@
 # Portfolio 2 building a sandbox network
 # Aims
-A sandboxed network provides an essential learning environment and platform, offering a secure, isolated space to simulate real-world network scenarios without introducing risks to live systems. For this Portfolio, you will create your own private sandboxed virtual network using VirtualBox. The network will consist of multiple virtual machines (VMs) configured within a private IP address range. The aim is to gain an applied understanding of networking concepts, IP subnetting, network interface configuration, and a basic server setup, design, planning and organisation strategies.
+This portfolio project involves building a safe, isolated virtual network using VirtualBox. This "sandbox" will consist of several virtual machines (VMs) operating within a private IP range. The goal is to gain hands-on experience with networking concepts like IP subnetting, configuring network interfaces, setting up a basic server, and applying design, planning, and organizational strategies.
 # Task
-You will create a small network that includes three virtual machine assets that will be networked. They are as follows:
+This project requires setting up a network with three interconnected virtual machines (VMs):
 
-Desktop VM: Used as the management interface for configuring other VMs, on subnet one.
+Desktop VM: This VM will be used to manage and configure the other VMs and will reside on the first subnet.
 
-Gateway VM: Acts as the network gateway with three LAN cards. One LAN card with internet access and another two LAN cards denoting two separate subnets.
-
+Gateway VM: This VM will function as the network's gateway, equipped with three network interface cards (NICs). One NIC will provide internet access, while the other two will connect to two distinct subnets.
 Application Server VM: Can be any server of choice (e.g., web server, database server), on subnet two.
 You can select a prebuilt server from Bitnami if you prefer.
 # Devices Used:
